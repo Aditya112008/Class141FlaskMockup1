@@ -35,3 +35,5 @@ We added one "id" in the beginning of movies.csv ,since exporting a dataframe in
 Build a flask API and use the data we just downloaded
 
 =-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-
+
+we are creating a route on “/get-movie” and this will be a GET request since we have not specified a method. We are then defining the function get_movie() and inside this function, we are returning the first movie from our all_movies list as a json using the jsonify() method
